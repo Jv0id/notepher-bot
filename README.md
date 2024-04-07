@@ -44,8 +44,10 @@ Follow these steps to set up and run your bot using this repository:
 
     Run the following command to build the web app:
     ```bash
-    npm run build
+    npm run build-dev
     ```
+
+   生成的dist目录通过nginx部署。需要使用https协议。
 
     This command will generate build output resources inside the `dist` directory. You can now deploy these resources as a regular static website to your hosting provider of choice.
 
