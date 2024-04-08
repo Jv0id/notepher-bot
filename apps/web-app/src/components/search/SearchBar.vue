@@ -3,7 +3,7 @@
     <icon-search class="absolute pointer-events-none w-6 h-6 ml-4"></icon-search>
     <input
       v-model="query"
-      placeholder="Search your notes..."
+      placeholder="搜索您的备忘录..."
       class="input input-bordered rounded-full w-full bg-tg-secondary-bg pl-12 focus:outline-none"
       @focus="emit('focus')"
     />

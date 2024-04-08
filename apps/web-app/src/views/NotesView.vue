@@ -61,10 +61,10 @@
     />
     <note-list-skeleton v-else-if="isNeverSynced" :count="16" />
     <div v-else>
-      <h1 v-if="pinnedNotes.length" class="ml-2 mb-1 font-semibold">Pinned</h1>
+      <h1 v-if="pinnedNotes.length" class="ml-2 mb-1 font-semibold">置顶</h1>
       <note-list :notes="pinnedNotes" />
       <h1 v-if="pinnedNotes.length && regularNotes.length" class="ml-2 mt-2 mb-1 font-semibold">
-        Other
+        其它
       </h1>
       <note-list :notes="regularNotes" />
     </div>

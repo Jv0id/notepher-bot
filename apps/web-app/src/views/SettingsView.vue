@@ -3,7 +3,7 @@
   <div class="flex flex-col px-6 pt-2">
     <div class="form-control">
       <label class="cursor-pointer label">
-        <span class="label-text text-base/loose">Sync automatically when app starts</span>
+        <span class="label-text text-base/loose">程序启动时自动同步</span>
         <input
           v-model="config.autoSyncWhenAppStarts"
           type="checkbox"
