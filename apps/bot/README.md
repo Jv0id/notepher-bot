@@ -1,5 +1,11 @@
 ## Usage
 
+## docker build
+
+`docker build -t notebot:v1.0 .`
+
+`docker run -d --restart=always --name notebot -e env_file=.env notebot:v1.0`
+
 1. **Environment Variables Setup**
 
    Create an environment variables file by copying the provided example file:
